@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Video Hosting</title>
+</head>
+<script>
+    function muteUnmute(btn, elem){
+        var video = document.getElementById(elem);
+        var mutebutton = document.getElementById(btn);
+        video.muted = !video.muted;
+        mutebutton.src = video.muted ? "icons/mute0.png" : "icons/mute1.png";
+    }
+</script>
+<body>
+    <div class="wrapper">
+        <div class="fullscreen">
+            <div class="fullscreen__body">
+                <div class="fullscreen__right">
+                    <div class="right-wrapper">
+                        <div class="right-wrapper__title">
+                            <div class="title">
+                                <div class="title__wrapper">
+                                    <div class="title__icon-wrapper">
+                                        <img class="title__icon-item" src="icons/image 1.png" alt="">
+                                    </div>
+                                    <div class="title__text-wrapper">
+                                        <p class="title__text-item">ITube</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="right-wrapper__scroll">
+                            <div class="right-wrapper__section">
+                                <a class="button-item_left" href="">Главная</a>
+                                <a class="button-item_left" href="">Подписки</a>
+                                <a class="button-item_left" href="">Плейлисты</a>
+                            </div>
+                            <hr>
+                            <div class="right-wrapper__section">
+                                <a class="button-item_left" href="">История</a>
+                                <a class="button-item_left" href="">Отложенное</a>
+                                <a class="button-item_left" href="">Понравившиеся</a>
+                                <a class="button-item_left" href="">Ваши видео</a>
+                            </div>
+                            <hr>
+                            <div class="right-wrapper__section">
+                                <div class="subscriptions">
+                                    <div class="subscriptions__item">
+                                        <div class="subscriptions__photo">
+                                        </div>
+                                        <div class="subsciptions__name">
+                                            <p class="subsciptions__name_text">HGJGkkn5</p>
+                                        </div>
+                                    </div>
+                                    <div class="subscriptions__item">
+                                        <div class="subscriptions__photo">
+                                        </div>
+                                        <div class="subsciptions__name">
+                                            <p class="subsciptions__name_text">Ksrcbv</p>
+                                        </div>
+                                    </div>
+                                    <div class="subscriptions__item">
+                                        <div class="subscriptions__photo">
+                                        </div>
+                                        <div class="subsciptions__name">
+                                            <p class="subsciptions__name_text">Emfakky678</p>
+                                        </div>
+                                    </div>
+                                    <div class="subscriptions__item">
+                                        <div class="subscriptions__photo">
+                                        </div>
+                                        <div class="subsciptions__name">
+                                            <p class="subsciptions__name_text">peasbnbyx</p>
+                                        </div>
+                                    </div>
+                                    <div class="subscriptions__item">
+                                        <div class="subscriptions__photo">
+                                        </div>
+                                        <div class="subsciptions__name">
+                                            <p class="subsciptions__name_text">TulGUofficial</p>
+                                        </div>
+                                    </div>
+                                    <div class="subscriptions__item">
+                                        <div class="subscriptions__photo">
+                                        </div>
+                                        <div class="subsciptions__name">
+                                            <p class="subsciptions__name_text">ysk34shdhdb</p>
+                                        </div>
+                                    </div>
+                                    <div class="subscriptions__item">
+                                        <div class="subscriptions__photo">
+                                        </div>
+                                        <div class="subsciptions__name">
+                                            <p class="subsciptions__name_text">kuplinovplay</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="right-wrapper__section_end">
+                                <div class="fast-right">
+                                    <div class="fast-right__item-wrapper">
+                                        <div class="fast-right__item">
+                                            <div class="fast-right__icon">
+                                                <img class="fast-right__icon_item" src="icons/image 2.png" alt="">
+                                            </div>
+                                            <div class="fast-right__text">
+                                                <p class="fast-right__text_item">
+                                                    В тренде
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fast-right__item-wrapper">
+                                        <div class="fast-right__item">
+                                            <div class="fast-right__icon">
+                                                <img class="fast-right__icon_item" src="icons/image 3.png" alt="">
+                                            </div>
+                                            <div class="fast-right__text">
+                                                <p class="fast-right__text_item">
+                                                    Музыка
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fast-right__item-wrapper">
+                                        <div class="fast-right__item">
+                                            <div class="fast-right__icon">
+                                                <img class="fast-right__icon_item" src="icons/image 4.png" alt="">
+                                            </div>
+                                            <div class="fast-right__text">
+                                                <p class="fast-right__text_item">
+                                                    Фильмы
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fast-right__item-wrapper">
+                                        <div class="fast-right__item">
+                                            <div class="fast-right__icon">
+                                                <img class="fast-right__icon_item" src="icons/image 5.png" alt="">
+                                            </div>
+                                            <div class="fast-right__text">
+                                                <p class="fast-right__text_item">
+                                                    Трансляции
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fast-right__item-wrapper">
+                                        <div class="fast-right__item">
+                                            <div class="fast-right__icon">
+                                                <img class="fast-right__icon_item" src="icons/image 6.png" alt="">
+                                            </div>
+                                            <div class="fast-right__text">
+                                                <p class="fast-right__text_item">
+                                                    Видеоигры
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fast-right__item-wrapper">
+                                        <div class="fast-right__item">
+                                            <div class="fast-right__icon">
+                                                <img class="fast-right__icon_item" src="icons/image 7.png" alt="">
+                                            </div>
+                                            <div class="fast-right__text">
+                                                <p class="fast-right__text_item">
+                                                    Спорт
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fullscreen__left">
+                    <div class="left-wrapper">
+                        <div class="left-wrapper__search">
+                            <div class="search-wrapper">
+                                <div class="search-form-wrapper">
+                                    <form action="">
+                                        <input class="search-form" type="text">
+                                    </form>
+                                    <div class="search-icon-wrapper">
+                                        <img class="search-icon-item" src="icons/image 8.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="search-right-icons">
+                                    <div class="search-right-icons__bell">
+                                        <img class="icon-bell" src="icons/image 10.png" alt="">
+                                    </div>
+                                    <div class="search-right-icons__account">
+                                        <img class="icon-account" src="icons/image 9.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-wrapper__fast-up">
+                            <div class="fast-up-wrapper">
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Всё</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Видеоигры</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Джемы</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Музыка</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Скетч-шоу</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Анимация</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Сейчас в эфире</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Экшен и приключения</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Изобразительное искусство</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Недавно опубликованные</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Просмотрено</a>
+                                </div>
+                                <div class="fast-up-button">
+                                    <a class="fast-up-button__item" href="">Новое для вас</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-wrapper__videos">
+                            <div class="videos">
+                                <div class="videos__grid">
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video1').play();" onmouseleave="document.getElementById('video1').pause();document.getElementById('video1').currentTime=0;document.getElementById('video1').load();" class="videos__video-container">
+                                            <video poster="img/poster1.png" muted id="video1" preload="metadata" class="videos__video" src="videos/video1.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton1', 'video1')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton1" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Nature Reel / Robert Hofmeyr 2017</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">127 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video2').play();" onmouseleave="document.getElementById('video2').pause();document.getElementById('video2').currentTime=0;document.getElementById('video2').load();" class="videos__video-container">
+                                            <video poster="img/poster2.png" muted id="video2" preload="metadata" class="videos__video" src="videos/video2.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton2', 'video2')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton2" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">ALPS & DOLOMITES (Drone + Timelapse)</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">56 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video3').play();" onmouseleave="document.getElementById('video3').pause();document.getElementById('video3').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video3" preload="metadata" class="videos__video" src="videos/video3.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton3', 'video3')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton3" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Cute cat is walking in 4K</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">24 млн. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video4').play();" onmouseleave="document.getElementById('video4').pause();document.getElementById('video4').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video4" preload="metadata" class="videos__video" src="videos/video4.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton4', 'video4')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton4" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Very beautiful mountains FULL HD</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">123 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video5').play();" onmouseleave="document.getElementById('video5').pause();document.getElementById('video5').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video5" preload="metadata" class="videos__video" src="videos/video5.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton5', 'video5')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton5" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">COSTA RICA IN 4K 60fps HDR (ULTRA HD)</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">514 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video6').play();" onmouseleave="document.getElementById('video6').pause();document.getElementById('video6').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video6" preload="metadata" class="videos__video" src="videos/video6.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton6', 'video6')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton6" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Cute Puppies [Playing in backyard] 4K</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">888 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video7').play();" onmouseleave="document.getElementById('video7').pause();document.getElementById('video7').currentTime=0;document.getElementById('video7').load();" class="videos__video-container">
+                                            <video poster="img/poster7.png" muted id="video7" preload="metadata" class="videos__video" src="videos/video7.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton7', 'video7')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton7" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Cute Puppy Race in 4K (ULTRA HD)</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">758 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video8').play();" onmouseleave="document.getElementById('video8').pause();document.getElementById('video8').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video8" preload="metadata" class="videos__video" src="videos/video8.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton8', 'video8')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton8" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Many Cute Kittens Collection</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">2 млн. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video9').play();" onmouseleave="document.getElementById('video9').pause();document.getElementById('video9').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video9" preload="metadata" class="videos__video" src="videos/video9.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton9', 'video9')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton9" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Funny little humster Compilation</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">694 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video10').play();" onmouseleave="document.getElementById('video10').pause();document.getElementById('video10').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video10" preload="metadata" class="videos__video" src="videos/video10.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton10', 'video10')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton10" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Italian Dolomites Scenery</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">3 млн. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video11').play();" onmouseleave="document.getElementById('video11').pause();document.getElementById('video11').currentTime=0;document.getElementById('video11').load();" class="videos__video-container">
+                                            <video poster="img/poster11.png" muted id="video11" preload="metadata" class="videos__video" src="videos/video11.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton11', 'video11')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton11" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">The Breathtaking Beauty of Nature</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">4 млн. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="videos__item">
+                                        <div onmouseenter="document.getElementById('video12').play();" onmouseleave="document.getElementById('video12').pause();document.getElementById('video12').currentTime=0;" class="videos__video-container">
+                                            <video muted id="video12" preload="metadata" class="videos__video" src="videos/video12.mp4" type="video/mp4"></video>
+                                            <div onclick="muteUnmute('mutebutton12', 'video12')" class="videos__button-container">
+                                                <img src="icons/mute0.png" id="mutebutton12" alt="" class="videos__mute-button">
+                                            </div>
+                                        </div>
+                                        <div class="videos__description">
+                                            <div class="videos__author-icon"></div>
+                                            <div class="videos__text">
+                                                <div class="videos__title">
+                                                    <p class="videos__title_text">Wildlife Animals 4K 60FPS</p>
+                                                </div>
+                                                <div class="videos__views">
+                                                    <p class="videos__views_text">574 тыс. просмотров</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
